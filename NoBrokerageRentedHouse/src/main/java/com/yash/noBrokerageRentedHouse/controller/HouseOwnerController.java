@@ -38,7 +38,7 @@ public class HouseOwnerController {
 	HouseOwnerService houseOwnerService;
 	
 	
-	@PostMapping("/saveHouseOwnerDetails")
+	@PostMapping("/saveHouseOwnerDetailsByName")
 	ResponseEntity<HouseOwner> saveHouseOwnerDetails(@RequestBody HouseOwner houseOwner) {
 		
 		if(houseOwner!=null) {
